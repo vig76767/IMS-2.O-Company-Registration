@@ -13,7 +13,7 @@ import { InternRegistration } from "./components-registration/InternRegistration
 import { AdminRegistration } from "./components-registration/AdminRegistration.jsx";
 import { MentorRegistration } from "./components-registration/MentorRegistration.jsx";
 import { HrRegistration } from "./components-registration/HRRegistration.jsx";
-
+import { RegistrationOTP} from "./components-registration/RegistrationOTP.jsx"
 
 const router = createBrowserRouter([
   {
@@ -64,6 +64,10 @@ const router = createBrowserRouter([
    {
     path:"/components-registration/HrRegistration",
     element:<HrRegistration/>
+  },
+  {
+    path:"/components-registration/RegistrationOTP",
+    element:<RegistrationOTP/>
   }
 ]);
 
